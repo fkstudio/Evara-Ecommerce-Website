@@ -345,8 +345,6 @@ input {
 /*=============== CATEGORIES ===============*/
 .categories {
   overflow: hidden;
-  height: 45px;
-  line-height: 42px;
 }
 
 .category__item {
@@ -358,7 +356,7 @@ input {
 
 .category__img {
   border-radius: 0.75rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 20px;
 }
 
 .category__title {
