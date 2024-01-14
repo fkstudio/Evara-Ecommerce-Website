@@ -633,12 +633,13 @@ display: none;
 }
 
 /*=============== DEALS ===============*/
+
 .deals__container {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .deals__item {
-  width: 95%;
+  max-width: 95%;
 }
 
 .deals__item:nth-child(1) {
@@ -738,9 +739,21 @@ display: none;
 .deals__btn .btn{
   background-color: transparent;
   color: var(--first-color);
+  
 }
 
+.btn--md {
+  font-family: var(--body-font);
+  height: 45px;
+  line-height: 42px;
+}
+
+
 /*=============== NEW ARRIVALS ===============*/
+.new__arrivals  {
+ overflow: hidden;
+}
+
 
 /*=============== SHOWCASE ===============*/
 
