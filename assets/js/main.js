@@ -68,8 +68,6 @@ breakpoints: {
 },
 });
 
-
-
 /*=============== PRODUCTS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
 tabContents = document.querySelectorAll('[content]');
